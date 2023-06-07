@@ -1,0 +1,8 @@
+numcount = int(input("input count of numbers:\t"))
+b = []
+for i in range(numcount):
+    a = int(input(f"Input your {i} number:\t"))
+    b.append(a)
+print(b)
+c = sum(b)
+print ("The sum is:\t", (c))
