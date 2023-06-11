@@ -9,7 +9,7 @@ if choice == 1:
     for letter in word_low:
         position = alphabet.find(letter)
         if position != -1:
-            new_position = (position - 3) % len(alphabet)  # Изменил на вычитание и добавил модуль, чтобы обеспечить цикличность шифрования
+            new_position = (position - 3) % len(alphabet)
             answer += alphabet[new_position]
         else:
             answer += letter
