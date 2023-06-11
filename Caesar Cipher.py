@@ -29,5 +29,4 @@ else:
         else:
             answer += letter
 
-
     print("encrypted word:\t", answer)
